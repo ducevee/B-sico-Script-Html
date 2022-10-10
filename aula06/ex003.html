@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The first exercise of Script</title>
+    <style>
+        body {
+            background-color: #6b6565;
+            color: brown;
+            font: normal 30px Arial;
+            text-align: center;
+            
+        }
+        window.alert{
+            color: rgb(201, 105, 105);
+        }
+    </style>
+</head>
+<body>
+    <h1>My first script</h1>
+    <script>
+        var n1 = Number(window.prompt('Digite um número: ')) // Para o script ler código é necessário converter para number. Apenas adicionar o paramêtro 'Number'
+        var n2 = Number(window.prompt('Digite outro número: ')) 
+        var s = n1 + n2
+        window.prompt(`A soma entre ${n1} e ${n2} é igual a ${s}`) // '+' também server para Concatenação
+        // number + number para adição
+        // string + string para concatenação
+    </script>
+
+
+</body>
+</html>
