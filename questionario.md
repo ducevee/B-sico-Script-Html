@@ -1,5 +1,7 @@
 # Questionário ao decorrer dos vídeos
 
+# Event Reference (DOM)
+
 **Questão 01: Sabe que empresa criou o JavaScript?**
 
 A: JavaScript é uma Linguagem de Programação, criada por Brendan Eich, a pedido da empresa Netscape, em meados de 1995.
@@ -63,4 +65,42 @@ A: 15
 **q16: Para que serve os operadores ++ e --?**
 
 A: Para adicionar 1 ou subtrair 1
+
+**Q17: Qual é a diferença entre =, == e ===?**
+
+A: A diferença entre eles é que (=) é usado para atribuir valor a variável, (==) é ultilizado para comparar a grandeza dos valores, e (===) compara o tipo primitivo dos valores.
+
+**Q18: Em uma expressão, temos os operadores || e &&. Quem eu resolvo primeiro?**
+
+A: O && é realizado antes que o ||.
+
+**Q19: Sabe usar o operador ternário para colocar um entre dois valores em uma variável?**
+
+A: Sim, ex: a = 5 b = 3 a>b ? 'Verdadeiro' : 'Falso'
+
+**Q20: Oque significa DOM???**
+
+A: Document Object Model, modelo de objetos para documentos. 
+
+**Q21: Sabe montar a árvore DOM de um website simples?**
+
+A: Sim.
+
+**Q22: Oque são os elementos Parents e Child de uma árvore DOM?**
+
+A: Os childs são elementos que pertencem há um elemento 'superior', os parents são childs que não estão na mesma 'subdivisão'.
+
+**Q23: Quais são os 5 principais métodos de selecionar elementos DOM dentro do JS?**
+
+A: Por MARCA , ID , NOME , CLASSE , SELETOR
+
+**Q24: Cite 3 eventos que podem ocorrer com elemento DOM**
+
+A: onclick ; mouseup; mouseuot
+
+**Q25: Oque é uma função em JavaScipt?? Como criar um função**
+
+A: É um comando ou um conjunto de comando que podem ser executadas em um site. Para criar uma função você precisa dentro da tag **script** dar o nome à uma função e declarar as variáveis e passar os comandos.
+
+
 
