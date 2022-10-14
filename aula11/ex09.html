@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Multas</title>
+</head>
+<body>
+    <h1>Sistema de Multas</h1>
+    Velocidade do carro: <input type="number" name="txtvel" id="txtvel"> Km/h <br>
+    <br>
+    Velocidade da via permitida: <input type="number" name="txtvia" id="txtvia"> Km/h
+
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="res"></div>
+    
+    <script>
+    
+        function calcular(){
+            var txtv = window.document.querySelector('input#txtvel')
+            var txtvi = window.document.querySelector('input#txtvia')
+            var res = window.document.querySelector('div#res')
+            var vel = Number(txtv.value)
+            var via = Number(txtvi.value)
+            res.innerHTML = `<p>Sua velocidade atual é de <strong>${vel} Km/h</strong></p>`
+            res.innerHTML += `<p>Dirija sempre com cinto de segurança ! <p>`
+            if (vel>=via){
+                res.innerHTML += `<p>Você foi <strong>MULTADO!</strong> Sua velocidade foi de ${vel}Km/h e a velocidade da via permitida era de ${via} Km/h`
+            }   
+            else {
+                res.innerHTML += `<p>Você estava de acordo com a velocidade da via, <strong>Parabéns!!</strong> </p>`
+            }
+            
+        }
+    </script>
+</body>
+</html>
