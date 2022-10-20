@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/aula015/vetornatel.js"
+            "program": "${workspaceFolder}/aula016/function05.js"
         }
     ]
 }
