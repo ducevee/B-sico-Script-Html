@@ -16,7 +16,7 @@ function verificar() {
             genero = 'Homem'
             if (idade >= 0 && idade < 10) {
                 // Child
-                img.setAttribute('src', 'crianca.jpg')
+                img.setAttribute('src', 'images/crianca.jpg')
                 genero = 'Male Child'
             } else if (idade >= 10 && idade < 18){
                 //Young
@@ -24,30 +24,30 @@ function verificar() {
                 genero = 'Male Young'
             } else if (idade >= 18 && idade < 60){
                 //adult
-                img.setAttribute('src', 'homem.jpg')
+                img.setAttribute('src', 'images/homem.jpg')
                 genero = 'Male Adult '
             } else {
                 //Old men
-                img.setAttribute('src', 'oldmen.jpg')
+                img.setAttribute('src', 'images/oldmen.jpg')
                 genero = 'Male lord'
             }
         } else if (fsex[1].checked) {
             genero = 'Mulher'
             if (idade >= 0 && idade < 10) {
                 //Child
-                img.setAttribute('src', 'criançaFem.webp')
+                img.setAttribute('src', 'images/criançaFem.webp')
                 genero = 'Female Child'
             } else if (idade >=10 && idade <18) {
                 //Young
-                img.setAttribute('src', 'adolescenteFEM.jpg')
+                img.setAttribute('src', 'images/adolescenteFEM.jpg')
                 genero = 'Female Young'
             } else if (idade >=18 && idade<60) {
                 //Adult
-                img.setAttribute('src', 'Mulher.jpg')
+                img.setAttribute('src', 'images/Mulher.jpg')
                 genero = 'Female adult'
             } else {
                 //Old woman
-                img.setAttribute('src', 'senhora.jpg')
+                img.setAttribute('src', 'images/senhora.jpg')
                 genero = 'Female old'
             }
         }
