@@ -18,6 +18,11 @@ section{
     box-shadow: 5px 5px 10px rgba(250, 246, 246, 0.226);
 }
 
+div#flista {
+    width: 150px;
+}
+
+
 footer{
     color: white;
     text-align: center;

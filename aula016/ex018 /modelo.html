@@ -4,24 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabuada</title>
+    <title>Analisador</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
         <header>
-            <h1>Analisador</h1>
+            <h1>Analisador de números</h1>
         </header> 
         <section>
             <div>
-                <p>Número (entre 0 e 100): <input type="number" name="num" id="txtn"> 
-                <input type="button" value="Adicionar" onclick="checklist()"></p>
+                Número (entre 0 e 100): 
+                <input type="number" name="fnum" id="fnum"> 
+                <input type="button" value="Adicionar" onclick="checklist()">
+                <br> <select name="flista" id="flista" size="6"></select>
+                
+            
             </div> 
-            <br> 
-            <div>
-                <select name="tabuada" id="seltab" size="10"> 
-                    <option>Digite um valor acima</option>
-                </select>
-            </div>
         </section>
         
         <footer>
