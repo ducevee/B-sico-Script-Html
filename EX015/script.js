@@ -20,7 +20,7 @@ function verificar() {
                 genero = 'Male Child'
             } else if (idade >= 10 && idade < 18){
                 //Young
-                img.setAttribute('src', 'adolescente.jpg')
+                img.setAttribute('src', 'images/adolescente.jpg')
                 genero = 'Male Young'
             } else if (idade >= 18 && idade < 60){
                 //adult
