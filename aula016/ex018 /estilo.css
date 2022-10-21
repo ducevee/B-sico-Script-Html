@@ -1,5 +1,5 @@
 body{
-    background: rgb(34, 34, 247);
+    background: rgb(143, 143, 143);
     font: normal 15pt Arial;
 }
 
@@ -20,6 +20,7 @@ section{
 
 div#flista {
     width: 150px;
+    text-align: center;
 }
 
 
